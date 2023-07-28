@@ -1,0 +1,163 @@
+@import url(blog.css);
+@import url(images.css);
+@import url(buttons.css);
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Sniglet:wght@800&display=swap');
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(3,fr);
+    grid-template-rows:100px 200px 1000px 100px;
+    grid-template-areas:
+    "hd hd hd"
+    "main main main"
+    "sd content content"
+    "ft ft ft";
+  }
+
+  .header{
+    grid-area:hd;
+    padding: 10px;
+    border: 2px dotted rgb(212, 190, 129);
+    margin: 5px;
+  }
+
+  .main{
+    grid-area:main;
+    font-family: 'Darumadrop One', cursive;
+  }
+
+  .sidebar{
+    grid-area: sd;
+    font-family: 'Darumadrop One', cursive;
+    color: #964B00;
+  }
+
+  .content{
+    grid-area: content;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    font-family: 'Darumadrop One', cursive;
+    color: #964B00;
+
+  }
+  .footer{
+    grid-area:ft;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+  }
+  body{background-image: "c:\Users\Yanni\OneDrive\Documents\WebDevelopment\Personal-Blog\Photos\background.png";
+    }
+  
+  @media only screen and (min-width:900px){
+    .h2-wrap{
+      margin-left:30%;
+      }
+
+    h3{
+      margin-top:-6%;
+      margin-left:75%;
+      }
+
+  .icon {
+    height: 70px;
+    width: 70px;}
+
+    p{
+      margin: -1%;
+    }
+
+    img:not(.art-logo) :not(.icon){
+      height: 50px;
+      width:50px;
+    }
+
+    h5{
+      margin:auto;
+      width: 250px;
+      height: 25px;
+    }
+    img.art-logo{
+      height: 50pt;
+      max-width: 50pt;
+    }
+
+    img.icon{
+      height: 70px;
+      width: 70px;
+    }
+
+    h1{
+      display: inline-block;
+      width: auto;
+      height: auto;
+      padding-left: 32%;
+    }
+
+    .main-blog{
+      padding-left: 36%;
+      vertical-align: bottom;
+      width: min-content;
+    }
+  }
+
+  @media only screen and (min-width:1200px){
+    .h2-wrap{
+      margin-left:35%;}
+
+      .main-blog{
+        padding-left: 36%;
+        vertical-align: bottom;
+      }
+
+      h1{
+        font-size: 43pt;
+        height: fit-content;
+        width: fit-content;
+      }
+
+      h3{
+        margin: top -5%;
+        margin-left:85%;
+    }
+    .icon {
+      height: 86px;
+      width: 86px;
+    }
+
+    img.icon{
+      height: 86px;
+      width: 86px;
+    }
+
+    p{
+      margin: auto;
+    }
+
+    h5{
+      margin:auto;
+      width: 250px;
+      height: 25px;
+    }
+
+  img:not(.art-logo) :not(.icon){
+    height: 50px;
+    width:50px;
+    }
+    img.art-logo{
+      height: 50pt;
+      max-width: 50pt;
+    }
+
+    h1{
+      display: inline-block;
+      width: auto;
+      height: auto;
+    }
+
+    h4{
+    padding-top: 20%;
+    }
+  }

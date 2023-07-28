@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Sniglet&display=swap');
+h1,img{
+    display:flex;
+    margin:auto;
+    align-self: center;
+    padding-top: 5%;
+    font-size: 48pt;
+    font-family: 'Sniglet', cursive;
+    color: rgb(54, 14, 14);
+}
+p{
+    display:flex;
+    margin:auto;
+    align-self: center;
+    font-size: 12pt;
+    font-family: 'Sniglet', cursive;
+    color: rgb(54, 14, 14);
+}
+body{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    background-color: rgb(253, 253, 253);
+}

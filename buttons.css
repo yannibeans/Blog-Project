@@ -1,0 +1,58 @@
+.search {
+    width: 100%;
+    display: flex;
+  }
+
+  .searchterm {
+    width: 100%;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 3px 0 0 3px;
+    outline: solid;
+    color: rgb(156, 108, 68);}
+
+  .searchterm:focus{
+    color:rgb(156, 108, 68);
+  }
+
+  .searchbutton {
+    width: 50px;
+    height: 36px;
+    text-align: center;
+    border: 1px solid rgb(156, 108, 68);
+    background: rgb(156, 108, 68);
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+  .wrap{
+  width: 50%;
+  top: 50%;
+  left: 100%;
+  }
+
+.fa{
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.sign {
+    color: white;
+    background-color: rgb(156, 108, 68);
+  }
+
+  .log {
+    color: rgb(156, 108, 68);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgb(156, 108, 68);
+  }
+
+  button:hover {
+    color: white;
+    box-shadow: 0 0 20px rgb(104, 67, 37);
+    background-color: rgb(156, 108, 68);
+  }

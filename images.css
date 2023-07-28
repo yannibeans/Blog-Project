@@ -1,0 +1,37 @@
+.icon {
+    height: 60px;
+    width: 60px;
+    background: rgba(233, 196, 204, 0.7);
+    display: inline-block;
+    vertical-align: top;
+}
+img:not(.art-logo){
+    height: 22px;
+    width:22px;
+
+}
+p{
+    margin: -1%;
+}
+body{background-image: url(background.png);
+}
+
+  a:hover {
+    color: white;
+    box-shadow: 0 0 20px rgb(63, 40, 21);
+    background-color: rgba(233, 196, 204,0.8);
+  }
+
+img.art-logo{
+    height: 50pt;
+    max-width: 50pt;
+    box-shadow: 0 0 20px rgb(63, 40, 21);
+    background-color: rgba(233, 196, 204,0.8);
+}
+
+img.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+}
